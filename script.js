@@ -20,8 +20,8 @@ const cardCount = carousel.querySelectorAll("[data-target='card']").length;
 // Define an offset property to dynamically update by clicking the button controls
 // as well as a maxX property so the carousel knows when to stop at the upper limit
 let offset = 0;
-const maxX = -((cardCount / 4) * carouselWidth + 
-               (cardMarginRight * (cardCount / 4)) - 
+const maxX = -((cardCount / 3) * carouselWidth + 
+               (cardMarginRight * (cardCount / 3)) - 
                carouselWidth - cardMarginRight);
 
 
